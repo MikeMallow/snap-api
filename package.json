@@ -1,0 +1,16 @@
+{
+  "name": "y",
+  "version": "0.0.1",
+  "main": "y",
+  "scripts": {
+    "start": "node src/"
+  },
+  "description": "y",
+  "repository": "y",
+  "author": "Mike Mallow",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.1"
+  }
+}
