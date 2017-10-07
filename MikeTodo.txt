@@ -1,0 +1,14 @@
+1. Make another Sequelize model called Provider. (You'll have to import it in src/index.js for it to get run). 
+2. Add a foreign key to Patient pointing to provider. 
+
+run \d+ "Patients"    to see if it actually runs.
+
+3. Add a Food model with the appropriate foreign keys.
+4. Add a Weight table with the appropriate foreign keys. 
+
+(If at this name you start to get annoyed by the table names, Sequelize.define() takes 
+ a second argument called options which has a tableName attribute which you can define
+ to your liking.)
+
+5. Make sure the database matches the diagram we drew. At this point you're ready to 
+   move on to migrations. That's the task for next week.
