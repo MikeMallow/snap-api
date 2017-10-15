@@ -3,6 +3,8 @@ const Sequelize = require('sequelize')
 // this is how you import 
 const db = require('../../db')
 
+const Provider = require('./Provider')
+
 const Patient = db.define('Patient', {
 	id: {
 		field: 'id', 
@@ -17,5 +19,7 @@ const Patient = db.define('Patient', {
 	}
 	// by default there is timestamps
 })
+
+Patient.belongsTo(Provider)
 
 module.exports = Patient
