@@ -7,6 +7,7 @@ const db = require('./db')
 // just importing this so it runs
 const Patient = require('./db/models/Patient')
 const Provider = require('./db/models/Provider')
+const Food = require('./db/models/Food')
 
 // this is print(db)
 console.log(db)
