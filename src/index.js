@@ -8,6 +8,7 @@ const db = require('./db')
 const Patient = require('./db/models/Patient')
 const Provider = require('./db/models/Provider')
 const Food = require('./db/models/Food')
+const Weight = require('./db/models/Weight')
 
 // this is print(db)
 console.log(db)
