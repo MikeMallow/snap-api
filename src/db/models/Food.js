@@ -39,10 +39,13 @@ const Food = db.define('Food', {
 		field: 'flagged',
 		type: Sequelize.BOOLEAN,
 		allowNull: false,
+		defaultValue: false,
 	}
 })
 
-Food.belongsTo(Patient)
+Food.belongsTo(Patient, {
+	onDelete: 'CASCADE',
+})
 
 module.exports = (Food)
 

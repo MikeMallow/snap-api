@@ -17,6 +17,8 @@ const Weight = db.define('Weight', {
 	}
 })
 
-Weight.belongsTo(Patient)
+Weight.belongsTo(Patient, {
+	onDelete: 'CASCADE',
+})
 
 module.exports = (Weight)
