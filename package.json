@@ -12,6 +12,7 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.1",
+    "migrations": "^0.1.7",
     "pg": "^7.3.0",
     "sequelize": "^4.13.5"
   }
