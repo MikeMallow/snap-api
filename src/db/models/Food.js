@@ -41,6 +41,8 @@ const Food = db.define('Food', {
 		allowNull: false,
 		defaultValue: false,
 	}
+}, {
+	tableName: 'food',
 })
 
 Food.belongsTo(Patient, {
@@ -48,18 +50,3 @@ Food.belongsTo(Patient, {
 })
 
 module.exports = (Food)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
