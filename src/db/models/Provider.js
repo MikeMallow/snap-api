@@ -5,7 +5,7 @@ const db = require('../../db')
 
 const Provider = db.define('Provider', {
 	id: {
-		field: 'id', 
+		field: 'id',
 		type: Sequelize.UUID,
 		primaryKey: true,
 		defaultValue: Sequelize.UUIDV4,
@@ -15,6 +15,8 @@ const Provider = db.define('Provider', {
 		type: Sequelize.TEXT,
 		allowNull: false,
 	}
+}, {
+	tableName: 'provider',
 })
 
 module.exports = Provider

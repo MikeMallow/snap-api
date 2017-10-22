@@ -12,7 +12,7 @@ const Weight = db.define('Weight', {
 	},
 	weight: {
 		field: 'patientHealthRating',
-		type: Sequelize.INTEGER,
+		type: Sequelize.FLOAT,
 		allowNull: false,
 	}
 })
